@@ -1,4 +1,4 @@
-import LogoTitle from '../../assets/images/logo-s.png'
+import LogoTitle from '../../assets/images/logo-g.png'
 import { Link } from 'react-router-dom';
 import './index.scss';
 import { useEffect, useState } from 'react';
@@ -9,11 +9,11 @@ const Home = () => {
     const nameArray = ['i', 'a', 'n', 'g']
     const jobArray = ['f', 'r', 'o', 'n', 't', 'e', 'n', 'd', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
 
-    useEffect(() => {
-        return (
-            setLetterClass('text-animate-hover')
-        )
-    }, [])
+    // useEffect(() => {
+    //     return (
+    //         setLetterClass('text-animate-hover')
+    //     )
+    // }, [])
 
     return (
         <div className="container home-page">
